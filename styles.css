@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+   font-weight:100;
+   text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    gap: 10px;
+    
+  }
+
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  
+
+img{
+    width:200px;
+    margin:10px;
+}
+.header{
+    display:flex;
+    flex-direction:column;
+    background-color:#1F2937;
+    color:white;  
+    height:450px;
+}
+
+.upperheader {
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 10px;
+   justify-content: space-between; 
+   margin-bottom:30px;
+} 
+
+.leftheader{
+    margin-right:80px;
+    padding:30px;
+    font-size:18px;
+    font-weight:200px;
+}
+  
+.rightheader{
+    margin-right:80px;
+    padding:30px;
+
+} 
+
+
+
+.rightheadertext {
+   padding:0px;
+}
+
+.bottomheader{
+    display:flex;
+    gap:100px;
+    margin-left:100px;
+    padding: 10px;
+    margin-right:100px;
+    justify-content: center;
+}
+
+.leftboxhead{
+    text-align:left;
+    padding:20px;
+}
+
+.paragraph{
+    font-size:18px;
+}
+
+button{
+    background-color:#3882F6;
+    color:white;
+    padding:10px 20px;
+    border-radius:12px;
+}
+
+.rightboxhead{
+    display:flex;
+    justify-content:center;
+}
+
+
+/*this is the middle section with information*/
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin:40px;
+  }
+
+.middletitle{
+    font-size:36px;
+    font-weight: bolder;
+    color:#1F2937;
+    padding:60px;
+}
+
+.text{
+    font-size:18px;
+    width:200px;
+}
+
+/* this is now the quote part */
+
+.quotebox{
+    height:250px;
+    background-color:#E5E7EB;
+    display:flex;
+    justify-content:center;
+    line-height:150%;
+}
+
+.quoteofbox{
+    width:800px;
+padding:50px;
+color:#1F2937;
+font-style:italic;
+font-size:20px;
+}
+
+/* footer */
+.footer{
+    display:flex;
+    justify-content: center;
+    margin:100px;
+    color:white;
+}
+.modal {
+    background: #3882F6;
+    width: 600px;
+    height:100px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding:30px;
+}
+.signup{
+   width:100px;
+   height:50px;
+   border-color: white;
+}
