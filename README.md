@@ -1,2 +1,2 @@
 # OlgasCollection
-This is a website dedicated to showcasing my writing!
+This was a standardly built website using CSS and HTML!
